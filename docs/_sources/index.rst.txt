@@ -1,0 +1,95 @@
+.. Dimensions API Lab documentation master file, created by
+   sphinx-quickstart on Fri Nov 22 22:19:45 2019.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to the Dimensions API Lab!
+==============================================
+
+This site contains a collection of open source Jupyter notebooks showing how to carry out common research data analytics tasks using the `Dimensions Analytics API <https://www.dimensions.ai/dimensions-apis/>`_.
+
+.. image:: _static/img/banner.jpg
+   :target: https://www.dimensions.ai/dimensions-apis/
+   :width: 80%
+   :alt: Dimensions API Homepage https://www.dimensions.ai/dimensions-apis/
+
+
+
+API Cookbooks
+========================
+
+
+.. toctree::
+   :caption: Getting Started
+   :maxdepth: 1
+   :glob:
+   :titlesonly:
+
+   cookbooks/1-getting-started/*
+
+.. toctree::
+   :caption: Publications 
+   :maxdepth: 1
+   :glob:
+   :titlesonly:
+
+   cookbooks/2-publications/General-statistics.ipynb
+   cookbooks/2-publications/Citation-Analysis.ipynb
+   cookbooks/2-publications/Which-Are-the-Journals-Citing-My-Organization.ipynb
+   cookbooks/2-publications/Simple-topic-analysis.ipynb
+
+.. toctree::
+   :caption: Clinical Trials 
+   :maxdepth: 1
+   :glob:
+   :titlesonly:
+
+   cookbooks/4-clinical-trials/*
+
+.. toctree::
+   :caption: Patents 
+   :maxdepth: 1
+   :glob:
+   :titlesonly:
+
+   cookbooks/5-patents/*
+
+.. toctree::
+   :caption: Datasets 
+   :maxdepth: 1
+   :glob:
+   :titlesonly:
+
+   cookbooks/9-datasets/1-introducing-datasets.ipynb
+   
+.. toctree::
+   :caption: Researchers 
+   :maxdepth: 1
+   :glob:
+   :titlesonly:
+
+   cookbooks/7-researchers/Calculating-the-H-Index-of-a-researcher.ipynb
+   cookbooks/7-researchers/Researchers-Search-tips-V2.ipynb
+
+.. toctree::
+   :caption: Organizations 
+   :maxdepth: 1
+   :glob:
+   :titlesonly:
+
+   cookbooks/8-organizations/1-GRID-preview.ipynb
+   cookbooks/8-organizations/2-Industry-Collaboration.ipynb
+   cookbooks/8-organizations/3-Organizations-Collaboration-Network.ipynb
+   
+
+
+.. index:: Foo
+
+More Resources
+==================
+
+Find out more about the Dimensions API with the following resources:
+
+* The `DSL official documentation <https://docs.dimensions.ai/dsl>`_
+* The `API Lab Github repository <https://github.com/digital-science/dimensions-api-lab>`_ 
+* The `Dimensions API homepage <https://www.dimensions.ai/dimensions-apis/>`_ 
